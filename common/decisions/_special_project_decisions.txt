@@ -1,0 +1,97 @@
+special_projects_cat = {
+   
+
+special_projects_capitol = {
+    
+    days_remove = 1 #60
+    days_re_enable = 0
+    ai_will_do = {
+        factor = 12
+	}
+    
+    visible = { 
+        any_owned_state = {
+                is_core_of = root
+                is_controlled_by = root
+				is_capital = yes	
+        }        
+    }
+    available = {  
+		has_tech = construction_industry_tech_1
+        any_owned_state = { 
+                is_controlled_by = root
+                is_core_of = root
+				is_capital = yes	
+				nuclear_facility = 0	
+
+        }
+
+        num_of_civilian_factories_available_for_projects > 3
+    }
+	modifier = { 
+		civilian_factory_use = 3
+	}
+	complete_effect = {
+		random_owned_controlled_state = {
+			limit = {
+				is_capital = yes	
+			} 
+			add_building_construction = {
+				type = nuclear_facility
+				level = 1
+			}			
+		} 
+	}
+	
+}   
+
+
+    special_projects_extra = {
+    
+		days_remove = 1 #120
+		days_re_enable = 0
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			any_owned_state = {
+				is_core_of = root
+				is_controlled_by = root
+			}   			
+		}
+		available = {
+			has_tech = construction_industry_tech_2
+			
+			any_owned_state = {
+				infrastructure > 5 
+				is_core_of = root
+				is_controlled_by = root
+				state_population > 10000
+				nuclear_facility = 0							
+			}			
+			num_of_civilian_factories_available_for_projects > 5
+		}
+
+		modifier = {
+			civilian_factory_use = 5
+			political_power_cost = 0.05
+		}
+		complete_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					infrastructure > 5 
+					is_core_of = root
+					is_controlled_by = root
+					state_population > 10000
+					nuclear_facility = 0							
+
+				} 
+				add_building_construction = {
+					type = nuclear_facility
+					level = 1
+					instant_build = yes
+				}
+			}					
+		}
+    }
+}

@@ -1,0 +1,90 @@
+#
+# List of options showing in the Game Rules screen
+#
+# format is:
+# rule_token = {
+#	name = "TEXT_KEY_FOR_NAME"
+#	required_dlc = "Name of the Required DLC"
+#	desc = "TEXT_KEY_FOR_LONG_DESC"
+#	group = "TEXT_KEY_FOR_GROUP"					# Used for filtering. A single rule can be in multiple groups 
+#	icon = gfx_option_token							# Optional icon
+#	option = {										# Unless other specified, the first option is the default option
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		allow_achievements = no						# Achievements cannot be earned if one or more game rules are set to an option that has this property set to no.
+#													# If not specified, this is set to yes for default options and no for all other options.
+#	}
+#	default = {										# Specify an option with the "default" token to override the behavior of treating the first option as the default.
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		...
+#	}
+# }
+
+RULE_university_slots = {
+	name = "RULE_university_slots"
+	group = "RULE_GROUP_university"
+	icon = "GFX_production_licenses"
+	option = {
+		name = NONE
+		text = "RULE_university_slots_none"
+		desc = "RULE_university_slots_none_desc"
+		allow_achievements = yes
+	}
+	option = {
+		name = ONE
+		text = "RULE_university_slots_one"
+		desc = "RULE_university_slots_one_desc"
+		allow_achievements = yes
+	}
+	option = {
+		name = TWO
+		text = "RULE_university_slots_two"
+		desc = "RULE_university_slots_two_desc"
+		allow_achievements = yes
+	}
+}
+
+#RULE_university_diff = {
+#	name = "RULE_university_diff"
+#	group = "RULE_GROUP_university"
+#	icon = "GFX_production_licenses"
+#	option = {
+#		name = EASY
+#		text = "RULE_university_diff_easy"
+#		desc = "RULE_university_diff_easy_desc"
+#		allow_achievements = yes
+#	}
+#	option = {
+#		name = NORMAL
+#		text = "RULE_university_diff_normal"
+#		desc = "RULE_university_diff_normal_desc"
+#		allow_achievements = yes
+#	}
+#	option = {
+#		name = HARD
+#		text = "RULE_university_diff_hard"
+#		desc = "RULE_university_diff_hard_desc"
+#		allow_achievements = yes
+#	}
+#}
+
+
+RULE_university_unlocks = {
+	name = "RULE_university_unlocks"
+	group = "RULE_GROUP_university"
+	icon = "GFX_production_licenses"
+	option = {
+		name = NO
+		text = "RULE_university_unlocks_no"
+		desc = "RULE_university_unlocks_no_desc"
+		allow_achievements = yes
+	}
+	option = {
+		name = YES
+		text = "RULE_university_unlocks_yes"
+		desc = "RULE_university_unlocks_yes_desc"
+		allow_achievements = yes
+	}
+}
+

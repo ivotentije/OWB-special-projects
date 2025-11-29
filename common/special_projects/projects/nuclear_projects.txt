@@ -1,0 +1,1428 @@
+sp_research_urbanization_tech = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = tool_engineering }
+	}
+
+	visible = { 		
+		NOT = {
+			FROM = { has_tech = urbanization_tech }
+		}
+	}
+	
+	ai_will_do = {
+		base = 1
+	}
+
+	breakthrough_cost = {
+		specialization_nuclear = 0
+	}
+	
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|urbanization_tech
+				set_technology = {
+					urbanization_tech = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = urbanization_tech	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_rationalism_tech = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = tool_engineering }
+	}
+
+	visible = { 		
+		NOT = {
+			FROM = { has_tech = rationalism_tech }
+		}
+	}
+	
+	ai_will_do = {
+		base = 1
+	}
+
+	breakthrough_cost = {
+		specialization_nuclear = 0
+	}
+	
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|rationalism_tech
+				set_technology = {
+					rationalism_tech = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = rationalism_tech	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_academia_tech = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = tool_engineering }
+	}
+
+	visible = { 		
+		NOT = {
+			FROM = { has_tech = academia_tech }
+		}
+	}
+	
+	ai_will_do = {
+		base = 1
+	}
+
+	breakthrough_cost = {
+		specialization_nuclear = 0
+	}
+	
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|academia_tech
+				set_technology = {
+					academia_tech = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = academia_tech	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_democracy_tech = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = tool_engineering }
+	}
+
+	visible = { 		
+		NOT = {
+			FROM = { has_tech = democracy_tech }
+		}
+	}
+	
+	ai_will_do = {
+		base = 1
+	}
+
+	breakthrough_cost = {
+		specialization_nuclear = 0
+	}
+	
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|democracy_tech
+				set_technology = {
+					democracy_tech = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = democracy_tech	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+
+
+sp_research_mandatory_service_tech = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = standing_army_tech }
+	}
+
+	visible = { 		
+		NOT = {
+			FROM = { has_tech = mandatory_service_tech }
+		}
+	}
+	
+	ai_will_do = {
+		base = 1
+	}
+
+	breakthrough_cost = {
+		specialization_nuclear = 0
+	}
+	
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|mandatory_service_tech
+				set_technology = {
+					mandatory_service_tech = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = mandatory_service_tech	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_gunsmithing_tech = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = standing_army_tech }
+	}
+
+	visible = { 		
+		NOT = {
+			FROM = { has_tech = gunsmithing_tech }
+		}
+	}
+	
+	ai_will_do = {
+		base = 1
+	}
+
+	breakthrough_cost = {
+		specialization_nuclear = 0
+	}
+	
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|gunsmithing_tech
+				set_technology = {
+					gunsmithing_tech = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = gunsmithing_tech	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+
+
+sp_research_enclosure_tech = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = tool_engineering }
+	}
+	
+	visible = { 		
+		NOT = {
+			FROM = { has_tech = enclosure_tech }
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_nuclear = 0
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|enclosure_tech
+				set_technology = {
+					enclosure_tech = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = enclosure_tech	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_intensive_agriculture_tech = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = enclosure_tech }
+	}
+	
+	visible = { 		
+		NOT = {
+			FROM = { has_tech = intensive_agriculture_tech }
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_nuclear = 0
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|intensive_agriculture_tech
+				set_technology = {
+					intensive_agriculture_tech = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = intensive_agriculture_tech	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+
+sp_research_shaft_mining_tech = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = enclosure_tech }
+	}
+	
+	visible = { 		
+		NOT = {
+			FROM = { has_tech = shaft_mining_tech }
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_nuclear = 0
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|shaft_mining_tech
+				set_technology = {
+					shaft_mining_tech = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = shaft_mining_tech	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_bureaucracy_tech = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = tool_engineering }
+	}
+	
+	visible = { 		
+		NOT = {
+			FROM = { has_tech = bureaucracy_tech }
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_nuclear = 0
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|bureaucracy_tech
+				set_technology = {
+					bureaucracy_tech = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = bureaucracy_tech	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+
+sp_research_medical_degrees_tech = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = tool_engineering }
+	}
+	
+	visible = { 		
+		NOT = {
+			FROM = { has_tech = medical_degrees_tech }
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_nuclear = 0
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|medical_degrees_tech
+				set_technology = {
+					medical_degrees_tech = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = medical_degrees_tech	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_modern_battlefleet_tactics_tech = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = tool_engineering }
+	}
+	
+	visible = { 		
+		NOT = {
+			FROM = { has_tech = modern_battlefleet_tactics_tech }
+		}
+	}
+	
+	breakthrough_cost = {
+		specialization_nuclear = 0
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|modern_battlefleet_tactics_tech
+				set_technology = {
+					modern_battlefleet_tactics_tech = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = modern_battlefleet_tactics_tech	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_standing_army_tech = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = tool_engineering }
+	}
+	
+	visible = { 		
+		NOT = {
+			FROM = { has_tech = standing_army_tech }
+		}
+	}
+
+
+	breakthrough_cost = {
+			specialization_nuclear = 0
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|standing_army_tech
+				set_technology = {
+					standing_army_tech = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = standing_army_tech	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_atmospheric_engine_tech = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = tool_engineering }
+	}
+	
+	visible = { 		
+		NOT = {
+			FROM = { has_tech = standing_army_tech }
+		}
+	}
+
+
+	breakthrough_cost = {
+			specialization_nuclear = 0
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|atmospheric_engine_tech
+				set_technology = {
+					atmospheric_engine_tech = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = atmospheric_engine_tech	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+
+sp_research_1 = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	breakthrough_cost = {
+		specialization_nuclear = 0
+	}
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = tool_engineering }
+		OR = {
+			has_game_rule = { rule = RULE_university_slots	option = ONE }
+			has_game_rule = { rule = RULE_university_slots	option = TWO }
+		}
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			add_research_slot = 1
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+
+sp_research_2 = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	breakthrough_cost = {
+		specialization_nuclear = 2
+	}
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = tool_engineering }
+		has_game_rule = { rule = RULE_university_slots	option = TWO }
+	}
+
+	resource_cost = {
+		resources = { 
+
+		 }
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			add_research_slot = 1
+		}
+
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_tools_tech_level_scientific = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	breakthrough_cost = {
+		specialization_nuclear = 3
+	}
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = tools_tech_level_settler }
+		NOT = {
+			FROM = { has_tech = tools_tech_level_scientific }
+		}
+		has_game_rule = { rule = RULE_university_unlocks	option = YES }		
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|tools_tech_level_scientific
+				set_technology = {
+					tools_tech_level_scientific = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = tools_tech_level_scientific	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_air_tech_level_scientific = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	breakthrough_cost = {
+		specialization_nuclear = 3
+	}
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = air_tech_level_settler }
+		NOT = {
+			FROM = { has_tech = air_tech_level_scientific }
+		}
+		has_game_rule = { rule = RULE_university_unlocks	option = YES }		
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|air_tech_level_scientific
+				set_technology = {
+					air_tech_level_scientific = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = air_tech_level_scientific	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+
+sp_research_air_tech_level_settler = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	breakthrough_cost = {
+		specialization_nuclear = 3
+	}
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = tool_engineering }
+		NOT = {
+			FROM = { has_tech = air_tech_level_settler }
+		}
+		has_game_rule = { rule = RULE_university_unlocks	option = YES }		
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|air_tech_level_settler
+				set_technology = {
+					air_tech_level_settler = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = air_tech_level_settler	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+
+sp_research_infantry_tech_level_settler = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	breakthrough_cost = {
+		specialization_nuclear = 3
+	}
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = infantry_tech_level_tribal }
+		NOT = {
+			FROM = { has_tech = infantry_tech_level_settler }
+		}
+		has_game_rule = { rule = RULE_university_unlocks	option = YES }		
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|infantry_tech_level_settler
+				set_technology = {
+					infantry_tech_level_settler = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = infantry_tech_level_settler	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_infantry_tech_level_scientific = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	breakthrough_cost = {
+		specialization_nuclear = 3
+	}
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = infantry_tech_level_settler }
+		NOT = {
+			FROM = { has_tech = infantry_tech_level_scientific }
+		}
+		has_game_rule = { rule = RULE_university_unlocks	option = YES }		
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|infantry_tech_level_scientific
+				set_technology = {
+					infantry_tech_level_scientific = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = infantry_tech_level_scientific	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+
+sp_research_power_armour_tech_level_settler = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	breakthrough_cost = {
+		specialization_nuclear = 3
+	}
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = power_armour_tech_level_tribal }
+		NOT = {
+			FROM = { has_tech = power_armour_tech_level_settler }
+		}
+		has_game_rule = { rule = RULE_university_unlocks	option = YES }		
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|power_armour_tech_level_settler
+				set_technology = {
+					power_armour_tech_level_settler = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = power_armour_tech_level_settler	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+
+sp_research_power_armour_tech_level_scientific = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	breakthrough_cost = {
+		specialization_nuclear = 3
+	}
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = power_armour_tech_level_settler }
+		NOT = {
+			FROM = { has_tech = power_armour_tech_level_scientific }
+		}
+		has_game_rule = { rule = RULE_university_unlocks	option = YES }		
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|power_armour_tech_level_scientific
+				set_technology = {
+					power_armour_tech_level_scientific = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = power_armour_tech_level_scientific	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_support_tech_level_settler = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	breakthrough_cost = {
+		specialization_nuclear = 3
+	}
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = support_tech_level_tribal }
+		NOT = {
+			FROM = { has_tech = support_tech_level_settler }
+		}
+		has_game_rule = { rule = RULE_university_unlocks	option = YES }		
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|support_tech_level_settler
+				set_technology = {
+					support_tech_level_settler = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = support_tech_level_settler	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_support_tech_level_scientific = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	breakthrough_cost = {
+		specialization_nuclear = 3
+	}
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = support_tech_level_settler }
+		NOT = {
+			FROM = { has_tech = support_tech_level_scientific }
+		}
+		has_game_rule = { rule = RULE_university_unlocks	option = YES }		
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|support_tech_level_scientific
+				set_technology = {
+					support_tech_level_scientific = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = support_tech_level_scientific	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_vehicles_tech_level_settler = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	breakthrough_cost = {
+		specialization_nuclear = 3
+	}
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = vehicles_tech_level_tribal }
+		NOT = {
+			FROM = { has_tech = vehicles_tech_level_settler }
+		}
+		has_game_rule = { rule = RULE_university_unlocks	option = YES }		
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|vehicles_tech_level_settler
+				set_technology = {
+					vehicles_tech_level_settler = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = vehicles_tech_level_settler	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+sp_research_vehicles_tech_level_scientific = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_radar
+
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+	breakthrough_cost = {
+		specialization_nuclear = 3
+	}
+
+	project_tags = sp_tag_radar
+
+	available = { 
+		FROM = { has_tech = vehicles_tech_level_settler }
+		NOT = {
+			FROM = { has_tech = vehicles_tech_level_scientific }
+		}
+		has_game_rule = { rule = RULE_university_unlocks	option = YES }		
+	}
+
+	ai_will_do = {
+		base = 1
+	}
+
+	
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|vehicles_tech_level_scientific
+				set_technology = {
+					vehicles_tech_level_scientific = 1
+					popup = no
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = vehicles_tech_level_scientific	
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_nuclear_scientist_xp_generic_reward
+		sp_nuclear_political_interference_generic_reward
+		sp_nuclear_generic_major_breakthrough_reward
+	}
+}
+
+
+
+
+# disable default projects
+
+sp_nuclear_reactor = {
+	visible = { 1 = 0 }
+}
+	
+sp_nuclear_warheads= {
+	visible = { 1 = 0 }
+}
+
+sp_thermo_nuclear_bomb= {
+	visible = { 1 = 0 }
+}
+
+sp_commercial_nuclear_reactor= {
+	visible = { 1 = 0 }
+}
+
+sp_nuclear_bomb= {
+	visible = { 1 = 0 }
+}
